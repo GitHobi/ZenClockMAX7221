@@ -335,4 +335,9 @@ void loop() {
       setMinute ( currSec, true );
     }    
   }
+
+  setHour(3, 0, true);
+  setHour(9, 0, true);
+  setHour(6, 0, true);
+  setHour(12, 0, true);
 }
